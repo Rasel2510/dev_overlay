@@ -67,7 +67,7 @@ class _DevOverlayPanelState extends State<DevOverlayPanel> {
 
   Color get _fg => widget.textColor ?? const Color(0xFF00FF88);
 
-  Color get _dim => _fg.withOpacity(0.5);
+  Color get _dim => _fg.withValues(alpha: 0.5);
 
   String get _fpsLabel {
     if (_fps >= 55) return '${_fps.toStringAsFixed(0)}fps ✅';
@@ -106,10 +106,10 @@ class _DevOverlayPanelState extends State<DevOverlayPanel> {
                   decoration: BoxDecoration(
                     color: _bg,
                     borderRadius: BorderRadius.circular(8),
-                    border: Border.all(color: _fg.withOpacity(0.3), width: 1),
+                    border: Border.all(color: _fg.withValues(alpha: 0.3), width: 1),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black.withOpacity(0.4),
+                        color: Colors.black.withValues(alpha: 0.4),
                         blurRadius: 12,
                         offset: const Offset(0, 4),
                       ),
@@ -177,7 +177,7 @@ class _DevOverlayPanelState extends State<DevOverlayPanel> {
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
               decoration: BoxDecoration(
-                color: _fg.withOpacity(0.1),
+                color: _fg.withValues(alpha: 0.1),
                 borderRadius: const BorderRadius.vertical(top: Radius.circular(8)),
               ),
               child: Row(
@@ -202,7 +202,7 @@ class _DevOverlayPanelState extends State<DevOverlayPanel> {
           ),
 
           // Divider
-          Divider(height: 1, color: _fg.withOpacity(0.2)),
+          Divider(height: 1, color: _fg.withValues(alpha: 0.2)),
 
           // Rows
           Padding(

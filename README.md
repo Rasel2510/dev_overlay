@@ -23,7 +23,7 @@ A developer debug overlay for Flutter apps. Shows route, screen size, theme, FPS
 
 ```yaml
 dependencies:
-  dev_overlay: ^1.0.0
+  dev_overlay: ^1.0.2
 ```
 
 ## Usage

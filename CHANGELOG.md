@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- remove withOpacity and use WithValues
+
 ## 1.0.1
 
 - Fixed `No Directionality widget found` error — wrapped overlay `Stack` with `Directionality`

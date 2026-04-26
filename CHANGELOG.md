@@ -2,8 +2,10 @@
 
 ## 1.0.2
 
-- remove withOpacity and use WithValues
+- Widened `package_info_plus` constraint to `>=4.0.0 <11.0.0` — fixes version conflict with projects using older versions
+- Widened `device_info_plus` constraint to `>=9.0.0 <14.0.0` — same fix
 
+ 
 ## 1.0.1
 
 - Fixed `No Directionality widget found` error — wrapped overlay `Stack` with `Directionality`

@@ -1,6 +1,6 @@
 name: dev_overlay
 description: "A draggable debug overlay for Flutter apps. Shows route, screen size, theme, FPS, device and app version info during development."
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/Rasel2510/dev_overlay
 repository: https://github.com/Rasel2510/dev_overlay
 issue_tracker: https://github.com/Rasel2510/dev_overlay/issues
@@ -12,8 +12,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  package_info_plus: ">=8.0.0 <9.0.0"
-  device_info_plus: ">=10.0.0 <11.0.0"
+  package_info_plus: ">=10.1.0 <11.0.0"
+  device_info_plus:  ">=13.1.0 <14.0.0"
 
 dev_dependencies:
   flutter_test:

@@ -4,9 +4,9 @@ import 'package:dev_overlay/dev_overlay.dart';
 
 void main() {
   runApp(
-    const DevOverlay(
+    DevOverlay(
       enabled: kDebugMode, // automatically hides in release
-      child: MyApp(),
+      child: const MyApp(),
     ),
   );
 }

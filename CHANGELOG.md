@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+- Fixed `No Directionality widget found` error — wrapped overlay `Stack` with `Directionality`
+- Removed incorrect `Navigator` inside the overlay that caused widget tree conflicts
+- Tightened `device_info_plus` lower bound to `>=10.1.0`
+
 ## 1.0.0
 
 - Initial release 🎉
